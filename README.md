@@ -25,6 +25,8 @@ part, C31, is on the band module even though it has a fixed value (5p).
 
 ![The PCB layout](bandmodule.png)
 
+The gerber file is in `bandmodule.cmp`.
+
 ## Notes
 
 - The board layout assumes a T30-2 toroid. For 60m and up, a T37-2 or even
@@ -34,6 +36,8 @@ part, C31, is on the band module even though it has a fixed value (5p).
 - I used through-hole components because they are easier to source for most
   people.
 - There should be enough margin on the borders to solder a PCB casing around.
+- As you may notice, I am not very comfortable with Eagle (yet). The idea is
+  that `TXIN`, `TXOUT`, `RXIN` and `RXOUT` are simple male headers.
 
 ## Author &amp; License
 These files were made by [Camil Staps][cs], PD7LOL. They are hereby placed in
