@@ -3867,9 +3867,9 @@ Values for 20m shown</text>
 <wire x1="48.26" y1="15.24" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="66.04" y1="22.86" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="15.24" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3909,11 +3909,11 @@ Values for 20m shown</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="L7" gate="G$1" pin="1"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="TXIN" gate="-2" pin="S"/>
-<wire x1="66.04" y1="25.4" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="25.4" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="25.4"/>
 </segment>
