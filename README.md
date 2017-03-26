@@ -4,6 +4,11 @@ This repository contains Eagle files for band modules for the
 designed as a single band QRP CW transceiver on a 3.6" square board. The mods
 described below make it a multi-bander.
 
+**Warning**: I have not actually tried to use these files yet. They may have
+errors. I shall in no event be liable for any claim, damages or other
+liability, whether in action of contract, tort or otherwise, arising from, out
+of or in connection with these files or their use.
+
 ## Main board
 - L3 has to be shorted.
 - Add 2-pin female headers on the place of L7 and L8
@@ -33,6 +38,10 @@ The gerber file is in `bandmodule.cmp`.
   T50-2 is used. I have attempted to leave as much space around the toroids as
   possible, so that this will hopefully fit. However, I did not try that (yet),
   and L8 may extend beyond the PCB boundaries.
+- When plugged in, these band modules cover the ON/OFF switch on the main
+  board. I would suggest either mounting the switch on the case or omitting it
+  (and turn the rig on and off by applying and disconnecting a battery or power
+  jack).
 - I used through-hole components because they are easier to source for most
   people.
 - There should be enough margin on the borders to solder a PCB casing around.
