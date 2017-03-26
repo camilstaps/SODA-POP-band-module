@@ -1,0 +1,20 @@
+# Project
+eagle.epf
+
+# Backups
+*.s#?
+*.b#?
+*.l#?
+
+# Autorouter
+*.pro
+*.job
+
+# CAM
+*.cmp
+*.plc
+*.sol
+*.stc
+*.sts
+
+*.gpi
