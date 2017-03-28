@@ -11,6 +11,7 @@ eagle.epf
 *.job
 
 # CAM
+*.cmp
 *.plc
 *.sol
 *.stc

@@ -30,8 +30,6 @@ part, C31, is on the band module even though it has a fixed value (5p).
 
 ![The PCB layout](bandmodule.png)
 
-The gerber file is in `bandmodule.cmp`.
-
 ## Notes
 
 - The board layout assumes a T30-2 toroid. For 60m and up, a T37-2 or even
