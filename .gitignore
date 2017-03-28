@@ -18,3 +18,9 @@ eagle.epf
 *.sts
 
 *.gpi
+
+# OSHPark
+*.ger
+*.dri
+*.xln
+*.oshpark.zip
