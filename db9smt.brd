@@ -1515,15 +1515,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CT2" pad="2"/>
 <contactref element="C31" pad="2"/>
 <contactref element="L4" pad="1"/>
-<wire x1="13.85" y1="11.08" x2="16.047" y2="11.08" width="0.4064" layer="16"/>
-<wire x1="11.08" y1="11.08" x2="13.85" y2="11.08" width="0.4064" layer="16"/>
+<wire x1="16.047" y1="11.08" x2="13.85" y2="11.08" width="0.4064" layer="16"/>
 <wire x1="13.85" y1="9.864" x2="13.85" y2="11.08" width="0.4064" layer="16"/>
-<wire x1="11.073" y1="11.073" x2="11.073" y2="5.263" width="0.4064" layer="16"/>
-<wire x1="11.073" y1="11.073" x2="11.08" y2="11.08" width="0.254" layer="16"/>
+<wire x1="11.073" y1="9.418" x2="11.073" y2="11.073" width="0" layer="19" extent="1-16"/>
+<wire x1="11.073" y1="9.418" x2="11.073" y2="5.263" width="0.4064" layer="16"/>
+<wire x1="11.073" y1="11.073" x2="11.08" y2="11.08" width="0" layer="19" extent="1-16"/>
 <wire x1="11.073" y1="5.263" x2="6.925" y2="5.263" width="0.4064" layer="16"/>
 <contactref element="CON8" pad="P$1"/>
 <wire x1="6.925" y1="5.263" x2="5.263" y2="6.925" width="0.4064" layer="16"/>
 <wire x1="5.263" y1="6.925" x2="2.77" y2="6.925" width="0.4064" layer="16"/>
+<wire x1="13.85" y1="11.08" x2="12.735" y2="11.08" width="0.4064" layer="16"/>
+<wire x1="12.735" y1="11.08" x2="11.073" y2="9.418" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>
