@@ -63,7 +63,6 @@ the rig on and off by applying and disconnecting a battery or power jack).
 
 ![PCB layout for SMT/DB9, <160m](db9smt-top.png)
 ![PCB layout for SMT/DB9, <160m](db9smt-bottom.png)
-![PCB layout for SMT/DB9, <160m](db9smt.png)
 
 These files show T37-2 toroids, so they should work for all bands except 160m.
 The T50-2 toroids for 160m will not fit any more, so they will extend beyond
