@@ -10,9 +10,19 @@ liability, whether in action of contract, tort or otherwise, arising from, out
 of or in connection with these files or their use.
 
 Two versions are available: one with through-hole components and headers; one
-with SMT components and a DB9 connector.
+with SMT components and a DB9 connector. Some modifications have to be made to
+the main board for both modules.
 
-## General mods
+---
+
+- [Common mods](#common-mods)
+- [Through-hole module with headers](#through-hole-module-with-headers)
+- [SMT module with DB9 connector](#smt-module-with-db9-connector)
+- [Author &amp; license](#author--license)
+
+---
+
+## Common mods
 
 ### Main board
 - The following components are moved to the band module:
