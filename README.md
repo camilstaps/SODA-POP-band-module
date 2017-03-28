@@ -30,6 +30,15 @@ part, C31, is on the band module even though it has a fixed value (5p).
 
 ![The PCB layout](bandmodule.png)
 
+For 160m, the layout is slightly different to make room for the T50-2 toroids.
+Also, C31 is removed here, and L4 is omitted (as in the manual).
+
+![The PCB layout](bandmodule-160m.png)
+
+For 80m, there is no separate layout. Simply leave L4 empty and short C31.
+
+For 60m and 80m, the T37-2 should fit on the normal board.
+
 ## Notes
 
 - The board layout assumes a T30-2 toroid. For 60m and up, a T37-2 or even
