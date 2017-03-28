@@ -42,12 +42,12 @@ the main board for both modules.
 - Add 3-pin female headers on the place of CT1 and CT2 (middle pin should be
   removed)
 
-![The PCB layout for <160m](bandmodule.png)
+![The PCB layout for <160m](headers.png)
 
 For 160m, the layout is slightly different to make room for the T50-2 toroids.
 Also, C31 is removed here, and L4 is omitted (as in the manual).
 
-![The PCB layout for 160m](bandmodule-160m.png)
+![The PCB layout for 160m](headers-160m.png)
 
 For 80m, there is no separate layout. Simply leave L4 empty and short C31.
 
