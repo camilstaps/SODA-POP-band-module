@@ -41,16 +41,11 @@ For 60m and 80m, the T37-2 should fit on the normal board.
 
 ## Notes
 
-- The board layout assumes a T30-2 toroid. For 60m and up, a T37-2 or even
-  T50-2 is used. I have attempted to leave as much space around the toroids as
-  possible, so that this will hopefully fit. However, I did not try that (yet),
-  and L8 may extend beyond the PCB boundaries. An other option is to move one
-  or both of the toroids to the backside.
 - When plugged in, these band modules cover the ON/OFF switch on the main
   board. I would suggest either mounting the switch on the case or omitting it
   (and turn the rig on and off by applying and disconnecting a battery or power
   jack).
-- I used through-hole components because they are easier to source for most
+- I used through-hole components because they are easier to source for some
   people.
 - There should be enough margin on the borders to solder a PCB casing around.
 - As you may notice, I am not very comfortable with Eagle (yet). The idea is
