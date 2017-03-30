@@ -4302,16 +4302,17 @@ Values for 20m shown</text>
 <segment>
 <pinref part="L8" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="48.26" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="48.26" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="55.88" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="58.42" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="5.08" y="58.42"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="CON1" gate="G$1" pin="P$1"/>
-<wire x1="2.54" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
-<junction x="2.54" y="58.42"/>
+<pinref part="CON2" gate="G$1" pin="P$1"/>
+<wire x1="-5.08" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<junction x="2.54" y="55.88"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4320,11 +4321,9 @@ Values for 20m shown</text>
 <pinref part="L7" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="0" y1="50.8" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
 <junction x="7.62" y="50.8"/>
-<pinref part="CON5" gate="G$1" pin="P$1"/>
-<wire x1="0" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="CON4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4387,16 +4386,9 @@ Values for 20m shown</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="CON3" gate="G$1" pin="P$1"/>
 <wire x1="-5.08" y1="53.34" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="53.34" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="50.8" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="53.34" x2="-2.54" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="CON2" gate="G$1" pin="P$1"/>
-<wire x1="-5.08" y1="55.88" x2="-2.54" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="55.88" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
-<junction x="-2.54" y="53.34"/>
-<pinref part="CON4" gate="G$1" pin="P$1"/>
-<wire x1="-5.08" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-2.54" y="50.8"/>
+<wire x1="-2.54" y1="48.26" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-15.24" y="35.56"/>
 <wire x1="2.54" y1="40.64" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
@@ -4415,6 +4407,13 @@ Values for 20m shown</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="40.64" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <junction x="27.94" y="35.56"/>
+<pinref part="CON5" gate="G$1" pin="P$1"/>
+<wire x1="-5.08" y1="48.26" x2="-2.54" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-2.54" y="48.26"/>
+<pinref part="CON1" gate="G$1" pin="P$1"/>
+<wire x1="-5.08" y1="58.42" x2="-2.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="58.42" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-2.54" y="53.34"/>
 </segment>
 </net>
 </nets>
