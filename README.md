@@ -13,6 +13,9 @@ Two versions are available: one with through-hole components and headers; one
 with SMT components and a DB9 connector. Some modifications have to be made to
 the main board for both modules.
 
+The most recent version of these modules can be ordered from OSH Park from
+https://oshpark.com/profiles/PD7LOL.
+
 ---
 
 - [Common mods](#common-mods)
