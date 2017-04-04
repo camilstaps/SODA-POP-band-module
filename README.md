@@ -21,6 +21,7 @@ https://oshpark.com/profiles/PD7LOL.
 - [Common mods](#common-mods)
 - [Through-hole module with headers](#through-hole-module-with-headers)
 - [SMT module with DB9 connector](#smt-module-with-db9-connector)
+- [SMT module with DB9 connector and auto band selection](#smt-module-with-db9-connector-and-auto-band-selection)
 - [Author &amp; license](#author--license)
 
 ---
@@ -73,10 +74,22 @@ the board boundaries.
 
 The PCB is placed between the two rows of the DB9 connector.
 
+## SMT module with DB9 connector and auto band selection
+This is a very nice mod to the above module, contributed by
+[David, VK3IL][vk3il]. It adds a [PCA9536][pca9536] that can be connected to
+the I2C pins of the SODA POP controller to add automatic band selection. For
+this, the firmware needs to be updated (and the new firmware does not exist...
+yet!).
+
+![PCB layout for SMT/DB9/autoband, <160m](db9smt-autoband-top.png)
+![PCB layout for SMT/DB9/autoband, <160m](db9smt-autoband-bottom.png)
+
 ## Author &amp; License
-These files were made by [Camil Staps][cs], PD7LOL. They are hereby placed in
-the public domain.
+These files were made by [Camil Staps][cs], PD7LOL and [David Giddy][vk3il],
+VK3IL. They are hereby placed in the public domain.
 
 [cs]: https://camilstaps.nl
 [kd1jv]: http://kd1jv.qrpradio.com/
+[pca9536]: http://www.nxp.com/documents/data_sheet/PCA9536.pdf
 [sodapop]: https://groups.yahoo.com/neo/groups/AT_Sprint/files/SODA%20POP/
+[vk3il]: http://www.vk3il.net/
