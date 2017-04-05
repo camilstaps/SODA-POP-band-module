@@ -9,9 +9,10 @@ errors. I shall in no event be liable for any claim, damages or other
 liability, whether in action of contract, tort or otherwise, arising from, out
 of or in connection with these files or their use.
 
-Two versions are available: one with through-hole components and headers; one
-with SMT components and a DB9 connector. Some modifications have to be made to
-the main board for both modules.
+Two versions are available: one with headers and either through-hole or SMT
+components; one with SMT components and a DB9 connector. The DB9 one has an
+option for automatic band selection. Some modifications have to be made to the
+main board for both modules.
 
 The most recent version of these modules can be ordered from OSH Park from
 https://oshpark.com/profiles/PD7LOL.
@@ -19,7 +20,7 @@ https://oshpark.com/profiles/PD7LOL.
 ---
 
 - [Common mods](#common-mods)
-- [Through-hole module with headers](#through-hole-module-with-headers)
+- [Through-hole / SMT module with headers](#through-hole--smt-module-with-headers)
 - [SMT module with DB9 connector](#smt-module-with-db9-connector)
 - [SMT module with DB9 connector and auto band selection](#smt-module-with-db9-connector-and-auto-band-selection)
 - [Author &amp; license](#author--license)
@@ -40,16 +41,19 @@ https://oshpark.com/profiles/PD7LOL.
 - The software has to be adapted as described in the manual under "Manual band
   selection".
 
-## Through-hole module with headers
-- L3 has to be shorted.
+## Through-hole / SMT module With headers
+- L3 has to be shorted (on the main board).
 - Add 2-pin female headers on the place of L7 and L8
 - Add 3-pin female headers on the place of CT1 and CT2 (middle pin should be
   removed)
 
 ![The PCB layout for <160m](headers.png)
 
-For 160m, the layout is slightly different to make room for the T50-2 toroids.
-Also, C31 is removed here, and L4 is omitted (as in the manual).
+If you want to make a 160m module with through-hole components, the layout is
+slightly different to make room for the T50-2 toroids. Also, C31 is removed in
+this case, and L4 is omitted (as in the manual). If building with SMT
+components, you can use the same layout as for the other modules, short C31 and
+leave out L4.
 
 ![The PCB layout for 160m](headers-160m.png)
 
