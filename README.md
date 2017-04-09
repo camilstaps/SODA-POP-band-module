@@ -82,11 +82,16 @@ The PCB is placed between the two rows of the DB9 connector.
 This is a very nice mod to the above module, contributed by
 [David, VK3IL][vk3il]. It adds a [PCA9536][pca9536] that can be connected to
 the I2C pins of the SODA POP controller to add automatic band selection. For
-this, the firmware needs to be updated (and the new firmware does not exist...
-yet!).
+this, the firmware needs to be updated.
 
 ![PCB layout for SMT/DB9/autoband, <160m](db9smt-autoband-top.png)
 ![PCB layout for SMT/DB9/autoband, <160m](db9smt-autoband-bottom.png)
+
+## Horizontal format SMT module with DB9 connector and auto band selection
+This version is designed to mount parallel and above the main board using a female DB9 connector on the module. It includes the auto-band selection feature and is sized to support T30 to T50 size toroids so can be used for 160-10m bands.
+
+![PCB layout for Horizontal SMT/DB9/autoband, <160m](db9-horizontal-autoband-top.png)
+![PCB layout for Horizontal SMT/DB9/autoband, <160m](db9-horizontal-autoband-bottom.png)
 
 ## Author &amp; License
 These files were made by [Camil Staps][cs], PD7LOL and [David Giddy][vk3il],
