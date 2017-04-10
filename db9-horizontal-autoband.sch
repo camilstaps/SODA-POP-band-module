@@ -100,8 +100,8 @@
 <package name="T30-2-28AWG-15T">
 <text x="-1.36" y="-3.63" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.36" y="-5.4" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.8" diameter="2.32"/>
-<pad name="P$2" x="5.08" y="0" drill="0.8" diameter="2.32"/>
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="2.32"/>
+<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="2.32"/>
 </package>
 </packages>
 <symbols>
