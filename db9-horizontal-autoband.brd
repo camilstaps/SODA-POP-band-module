@@ -6,49 +6,49 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -73,10 +73,17 @@
 <wire x1="10.834" y1="20.482" x2="9.226" y2="25.96" width="0.254" layer="21"/>
 <wire x1="25.448" y1="25.588" x2="26.833" y2="20.487" width="0.254" layer="21"/>
 <wire x1="6.525" y1="20.405" x2="6.879" y2="21.721" width="0.254" layer="21"/>
-<text x="29" y="35.6" size="1.016" layer="1" font="vector" ratio="16" rot="R270">SodaPop Band
-Module 160-10m</text>
+<text x="3.77" y="1.06" size="1.016" layer="26" font="vector" ratio="16">SodaPop Band Module 160-10m</text>
 <wire x1="22.325" y1="20.505" x2="22.979" y2="22.021" width="0.254" layer="21"/>
 <rectangle x1="26.1" y1="21.1" x2="32.6" y2="36.6" layer="22"/>
+<wire x1="0" y1="0" x2="0" y2="37" width="1.016" layer="41"/>
+<wire x1="0" y1="37" x2="33" y2="37" width="1.016" layer="41"/>
+<wire x1="33" y1="37" x2="33" y2="0" width="1.016" layer="41"/>
+<wire x1="33" y1="0" x2="0" y2="0" width="1.016" layer="41"/>
+<wire x1="0" y1="0" x2="0" y2="37" width="1.016" layer="42"/>
+<wire x1="0" y1="37" x2="33" y2="37" width="1.016" layer="42"/>
+<wire x1="33" y1="37" x2="33" y2="0" width="1.016" layer="42"/>
+<wire x1="33" y1="0" x2="0" y2="0" width="1.016" layer="42"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1128,20 +1135,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="CTRIMTZ03">
-<description>&lt;b&gt;Trimm capacitor&lt;/b&gt; muRata</description>
-<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
-<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
-<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
-<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.5" drill="1"/>
-<pad name="2" x="0" y="-2.5" drill="1"/>
-<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
-<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
-</package>
 <package name="L2012C">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -1166,7 +1159,7 @@ Metric Code Size 3216</description>
 <smd name="1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
 <smd name="2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
 <text x="-1.6" y="1.1" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.6" y="-2.1" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-1.6" y="-2.2" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
 <rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
 </package>
@@ -1189,8 +1182,8 @@ Metric Code Size 2012</description>
 <package name="T30-2-28AWG-15T">
 <text x="-1.36" y="-3.63" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.36" y="-5.4" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.9" diameter="2.32"/>
-<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="2.32"/>
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="2.32"/>
+<pad name="P$2" x="5.08" y="0" drill="0.8" diameter="2.32"/>
 </package>
 </packages>
 </library>
@@ -1304,8 +1297,8 @@ Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
 <pad name="7" x="1.3716" y="-1.4224" drill="1.016" shape="octagon"/>
 <pad name="8" x="-1.3716" y="-1.4224" drill="1.016" shape="octagon"/>
 <pad name="9" x="-4.1148" y="-1.4224" drill="1.016" shape="octagon"/>
-<pad name="G1" x="-12.5222" y="0" drill="3.302" diameter="5.08"/>
-<pad name="G2" x="12.5222" y="0" drill="3.302" diameter="5.08"/>
+<pad name="G1" x="-12.495" y="0" drill="3.302" diameter="5.08"/>
+<pad name="G2" x="12.495" y="0" drill="3.302" diameter="5.08"/>
 <text x="5.08" y="2.54" size="0.9906" layer="21" ratio="12">1</text>
 <text x="2.286" y="2.54" size="0.9906" layer="21" ratio="12">2</text>
 <text x="-0.508" y="2.54" size="0.9906" layer="21" ratio="12">3</text>
@@ -1317,6 +1310,22 @@ Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
 <text x="-4.572" y="-3.556" size="0.9906" layer="21" ratio="12">9</text>
 <text x="-15.367" y="6.985" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="6.985" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CTRIMTZ03">
+<description>&lt;b&gt;Trimm capacitor&lt;/b&gt; muRata</description>
+<wire x1="-1.45" y1="-2.5" x2="-1.15" y2="2.7" width="0.254" layer="21" curve="-128"/>
+<wire x1="1.15" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.4" width="0.15" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="1.2"/>
+<pad name="2" x="0" y="-2.5" drill="1.2"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
+<wire x1="1.115" y1="-2.5" x2="-1.115" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="1.45" y1="-2.5" x2="1.19" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="-1.19" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1505,10 +1514,10 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CT1" library="rcl" package="CTRIMTZ03" value="60p" x="8.359" y="3.606" smashed="yes" rot="R90">
+<element name="CT1" library="PCA9536" package="CTRIMTZ03" value="60p" x="8.359" y="3.606" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.286" y="7.305" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="CT2" library="rcl" package="CTRIMTZ03" value="60p" x="23.641" y="3.636" smashed="yes" rot="R270">
+<element name="CT2" library="PCA9536" package="CTRIMTZ03" value="60p" x="23.641" y="3.636" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.372" y="6.272" size="1.27" layer="25"/>
 </element>
 <element name="L7" library="toroids" package="T30-2-28AWG-15T" value="T30-2 / 12T" x="27" y="19" smashed="yes" rot="R180">
@@ -1600,9 +1609,7 @@ Please make sure your boards conform to these design rules.</description>
 <polygon width="0.3048" layer="1" isolate="0.254">
 <vertex x="0" y="0"/>
 <vertex x="0" y="37"/>
-<vertex x="28" y="37"/>
-<vertex x="28" y="22"/>
-<vertex x="33" y="22"/>
+<vertex x="33.08" y="37"/>
 <vertex x="33" y="0"/>
 </polygon>
 <contactref element="X1" pad="G1"/>
@@ -1751,10 +1758,4 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
