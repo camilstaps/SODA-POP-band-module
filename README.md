@@ -23,6 +23,7 @@ https://oshpark.com/profiles/PD7LOL.
 - [Through-hole / SMT module with headers](#through-hole--smt-module-with-headers)
 - [SMT module with DB9 connector](#smt-module-with-db9-connector)
 - [SMT module with DB9 connector and auto band selection](#smt-module-with-db9-connector-and-auto-band-selection)
+- [Horizontal format SMT module with DB9 connector and auto band selection](#horizontal-format-smt-module-with-db9-connector-and-auto-band-selection)
 - [Author &amp; license](#author--license)
 
 ---
@@ -88,10 +89,13 @@ this, the firmware needs to be updated.
 ![PCB layout for SMT/DB9/autoband, <160m](db9smt-autoband-bottom.png)
 
 ## Horizontal format SMT module with DB9 connector and auto band selection
-This version is designed to mount parallel and above the main board using a female DB9 connector on the module. It includes the auto-band selection feature and is sized to support T30 to T50 size toroids so can be used for 160-10m bands.
+This version is designed to mount parallel and above the main board using a
+female DB9 connector on the module. It includes the auto-band selection feature
+and is sized to support T30 to T50 size toroids so can be used for 160-10m
+bands.
 
-![PCB layout for Horizontal SMT/DB9/autoband, <160m](db9-horizontal-autoband-top.png)
-![PCB layout for Horizontal SMT/DB9/autoband, <160m](db9-horizontal-autoband-bottom.png)
+![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-top.png)
+![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-bottom.png)
 
 ## Author &amp; License
 These files were made by [Camil Staps][cs], PD7LOL and [David Giddy][vk3il],
