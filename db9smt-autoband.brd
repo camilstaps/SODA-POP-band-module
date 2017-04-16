@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="19.6850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
@@ -21,7 +21,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1127,20 +1127,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="CTRIMTZ03">
-<description>&lt;b&gt;Trimm capacitor&lt;/b&gt; muRata</description>
-<wire x1="1.45" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="-1.45" y1="-2.5" x2="-1.05" y2="2.7" width="0.254" layer="21" curve="-128.646369"/>
-<wire x1="1.05" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
-<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
-<circle x="0" y="0" radius="1.6" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="2.5" drill="1"/>
-<pad name="2" x="0" y="-2.5" drill="1"/>
-<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
-<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
-</package>
 <package name="L2012C">
 <description>&lt;b&gt;INDUCTOR&lt;/b&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -1250,6 +1236,22 @@ Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
 <text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="CTRIMTZ03">
+<description>&lt;b&gt;Trimm capacitor&lt;/b&gt; muRata</description>
+<wire x1="-1.45" y1="-2.5" x2="-1.15" y2="2.7" width="0.254" layer="21" curve="-128"/>
+<wire x1="1.15" y1="2.7" x2="1.45" y2="-2.5" width="0.254" layer="21" curve="-128.646369"/>
+<wire x1="-1.05" y1="2.7" x2="1.05" y2="2.7" width="0.254" layer="51" curve="-42.501011"/>
+<circle x="0" y="0" radius="1.4" width="0.15" layer="21"/>
+<pad name="1" x="0" y="2.5" drill="1.2"/>
+<pad name="2" x="0" y="-2.5" drill="1.2"/>
+<text x="-3.3" y="-2.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.6" y="-2.6" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.2" x2="0.35" y2="1.2" layer="21"/>
+<rectangle x1="-1.2" y1="-0.35" x2="1.2" y2="0.35" layer="21"/>
+<wire x1="1.115" y1="-2.5" x2="-1.115" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="1.45" y1="-2.5" x2="1.19" y2="-2.5" width="0.254" layer="21"/>
+<wire x1="-1.19" y1="-2.5" x2="-1.45" y2="-2.5" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1438,10 +1440,10 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CT1" library="rcl" package="CTRIMTZ03" value="60p" x="9.141" y="21.606" smashed="yes" rot="MR90">
+<element name="CT1" library="PCA9536" package="CTRIMTZ03" value="60p" x="9.141" y="21.606" smashed="yes" rot="MR90">
 <attribute name="NAME" x="12.695" y="20.214" size="1.27" layer="26" rot="MR90"/>
 </element>
-<element name="CT2" library="rcl" package="CTRIMTZ03" value="60p" x="9.141" y="8.864" smashed="yes" rot="MR90">
+<element name="CT2" library="PCA9536" package="CTRIMTZ03" value="60p" x="9.141" y="8.864" smashed="yes" rot="MR90">
 <attribute name="NAME" x="12.772" y="7.372" size="1.27" layer="26" rot="MR90"/>
 </element>
 <element name="L7" library="toroids" package="T30-2-28AWG-15T" value="T30-2 / 12T" x="11.634" y="12.465" smashed="yes" rot="R180">
@@ -1516,6 +1518,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="2.681" y="5.252" size="1.27" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="2.162" y="1.8159" size="0.02" layer="28" rot="MR270"/>
 </element>
+<element name="C1" library="eagle-ltspice" package="C0603" value="0.1u" x="12" y="5.5" smashed="yes" rot="MR270">
+<attribute name="SPICEMODEL" value="NONE" x="12" y="5.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="12" y="5.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="14.465" y="6.435" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="13.905" y="6.135" size="1.27" layer="28" rot="MR270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1561,6 +1569,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="13.648" y="1.235" extent="1-16" drill="0.6" shape="square"/>
 <via x="13.648" y="29.435" extent="1-16" drill="0.6" shape="square"/>
 <via x="5.648" y="19.935" extent="1-16" drill="0.6" shape="square"/>
+<contactref element="C1" pad="2"/>
+<via x="9.648" y="4.735" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="N$2">
 <contactref element="CT1" pad="2"/>
@@ -1629,11 +1639,12 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$7">
 <contactref element="CON3" pad="P$1"/>
 <contactref element="IC1" pad="8"/>
-<wire x1="11.741" y1="6.06" x2="9.729" y2="6.06" width="0.4064" layer="1"/>
-<wire x1="9.729" y1="6.06" x2="8.033" y2="7.656" width="0.4064" layer="1"/>
-<wire x1="8.033" y1="7.656" x2="5.894" y2="7.656" width="0.4064" layer="1"/>
-<wire x1="5.894" y1="7.656" x2="5.363" y2="8.587" width="0.4064" layer="1"/>
-<wire x1="5.363" y1="8.587" x2="5.363" y2="10.249" width="0.4064" layer="1"/>
+<wire x1="11.741" y1="6.06" x2="11" y2="6.06" width="0.4064" layer="1"/>
+<wire x1="10.24" y1="6.9" x2="10.229" y2="6.96" width="0.4064" layer="1"/>
+<wire x1="10.229" y1="6.96" x2="8.033" y2="7.556" width="0.4064" layer="1"/>
+<wire x1="8.033" y1="7.556" x2="5.894" y2="7.556" width="0.4064" layer="1"/>
+<wire x1="5.894" y1="7.556" x2="5.363" y2="8.087" width="0.4064" layer="1"/>
+<wire x1="5.363" y1="8.087" x2="5.363" y2="10.249" width="0.4064" layer="1"/>
 <wire x1="5.363" y1="10.249" x2="5.54" y2="10.526" width="0.4064" layer="1"/>
 <via x="5.54" y="10.526" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="5.54" y1="10.526" x2="5.086" y2="10.803" width="0.254" layer="16"/>
@@ -1642,6 +1653,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.1" y1="15.235" x2="5.386" y2="15.235" width="0.4064" layer="16"/>
 <via x="5.386" y="15.235" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="5.386" y1="15.235" x2="2.77" y2="15.235" width="0.4064" layer="1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="12" y1="6.35" x2="10.7" y2="6.85" width="0.4064" layer="16"/>
+<wire x1="10.7" y1="6.85" x2="10.24" y2="6.9" width="0.4064" layer="16"/>
+<via x="10.24" y="6.9" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="10.24" y1="6.9" x2="11" y2="6.06" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="CON1" pad="P$1"/>
@@ -1660,8 +1676,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$9">
 <contactref element="CON5" pad="P$1"/>
 <contactref element="IC1" pad="7"/>
-<wire x1="11.741" y1="4.79" x2="9.891" y2="4.79" width="0.4064" layer="1"/>
-<wire x1="9.891" y1="4.79" x2="7.756" y2="6.925" width="0.4064" layer="1"/>
+<wire x1="11.741" y1="4.79" x2="8.891" y2="6.29" width="0.4064" layer="1"/>
+<wire x1="8.891" y1="6.29" x2="7.756" y2="6.925" width="0.4064" layer="1"/>
 <wire x1="7.756" y1="6.925" x2="5.54" y2="6.925" width="0.4064" layer="1"/>
 <wire x1="5.54" y1="6.925" x2="2.77" y2="9.695" width="0.4064" layer="1"/>
 </signal>
@@ -1669,9 +1685,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="3" pad="1"/>
 <wire x1="11.741" y1="2.25" x2="11.634" y2="2.25" width="0.4064" layer="1"/>
-<wire x1="11.634" y1="2.25" x2="11.634" y2="1.108" width="0.4064" layer="1"/>
-<via x="11.634" y="1.108" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="11.634" y1="1.108" x2="11.634" y2="3.047" width="0.4064" layer="16"/>
+<wire x1="11.634" y1="2.25" x2="11.634" y2="1.308" width="0.4064" layer="1"/>
+<via x="11.634" y="1.308" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="11.634" y1="1.308" x2="11.634" y2="3.047" width="0.4064" layer="16"/>
 <wire x1="11.634" y1="3.047" x2="9.141" y2="3.047" width="0.4064" layer="16"/>
 <wire x1="9.141" y1="3.047" x2="9.641" y2="2.978" width="0.4064" layer="16"/>
 </signal>
