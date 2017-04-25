@@ -94,8 +94,8 @@ female DB9 connector on the module. It includes the auto-band selection feature
 and is sized to support T30 to T50 size toroids so can be used for 160-10m
 bands.
 
-![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-top.png)
-![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-bottom.png)
+![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-R1-top.png)
+![PCB layout for Horizontal SMT/DB9/autoband](db9-horizontal-autoband-R1-bottom.png)
 
 ## Author &amp; License
 These files were made by [Camil Staps][cs], PD7LOL and [David Giddy][vk3il],
