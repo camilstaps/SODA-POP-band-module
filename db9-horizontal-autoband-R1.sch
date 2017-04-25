@@ -100,8 +100,8 @@
 <package name="T30-2-28AWG-15T">
 <text x="-1.36" y="-3.63" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.36" y="-5.4" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.9" diameter="2.32"/>
-<pad name="P$2" x="5.08" y="0" drill="0.9" diameter="2.32"/>
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="2.32"/>
+<pad name="P$2" x="5.08" y="0" drill="0.8" diameter="2.32"/>
 </package>
 </packages>
 <symbols>
@@ -5300,13 +5300,13 @@ Source: AVX .. aphvc.pdf</description>
 <package name="SO8">
 <description>&lt;B&gt;SO8: plastic small outline package; 8 leads; body width 3.9 mm&lt;/B&gt;&lt;p&gt;
 Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="1.6" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="1.6" layer="1"/>
@@ -5326,6 +5326,7 @@ Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+<circle x="-2.8956" y="-2.5908" radius="0.113590625" width="0.127" layer="21"/>
 </package>
 <package name="SJ">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
@@ -5433,17 +5434,17 @@ Source: http://www.nxp.com/documents/data_sheet/PCA82C250.pdf</description>
 <circle x="-5.4864" y="1.4224" radius="0.762" width="0.254" layer="51"/>
 <circle x="-12.5222" y="0" radius="1.651" width="0.1524" layer="21"/>
 <circle x="12.5222" y="0" radius="1.651" width="0.1524" layer="21"/>
-<pad name="1" x="5.4864" y="1.4224" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.7432" y="1.4224" drill="1.016" shape="octagon"/>
-<pad name="3" x="0" y="1.4224" drill="1.016" shape="octagon"/>
-<pad name="4" x="-2.7432" y="1.4224" drill="1.016" shape="octagon"/>
-<pad name="5" x="-5.4864" y="1.4224" drill="1.016" shape="octagon"/>
-<pad name="6" x="4.1148" y="-1.4224" drill="1.016" shape="octagon"/>
-<pad name="7" x="1.3716" y="-1.4224" drill="1.016" shape="octagon"/>
-<pad name="8" x="-1.3716" y="-1.4224" drill="1.016" shape="octagon"/>
-<pad name="9" x="-4.1148" y="-1.4224" drill="1.016" shape="octagon"/>
-<pad name="G1" x="-12.495" y="0" drill="3.302" diameter="5.08"/>
-<pad name="G2" x="12.495" y="0" drill="3.302" diameter="5.08"/>
+<pad name="1" x="5.4864" y="1.4224" drill="1" shape="octagon"/>
+<pad name="2" x="2.7432" y="1.4224" drill="1" shape="octagon"/>
+<pad name="3" x="0" y="1.4224" drill="1" shape="octagon"/>
+<pad name="4" x="-2.7432" y="1.4224" drill="1" shape="octagon"/>
+<pad name="5" x="-5.4864" y="1.4224" drill="1" shape="octagon"/>
+<pad name="6" x="4.1148" y="-1.4224" drill="1" shape="octagon"/>
+<pad name="7" x="1.3716" y="-1.4224" drill="1" shape="octagon"/>
+<pad name="8" x="-1.3716" y="-1.4224" drill="1" shape="octagon"/>
+<pad name="9" x="-4.1148" y="-1.4224" drill="1" shape="octagon"/>
+<pad name="G1" x="-12.495" y="0" drill="3.3" diameter="5.08"/>
+<pad name="G2" x="12.495" y="0" drill="3.3" diameter="5.08"/>
 <text x="5.08" y="2.54" size="0.9906" layer="21" ratio="12">1</text>
 <text x="2.286" y="2.54" size="0.9906" layer="21" ratio="12">2</text>
 <text x="-0.508" y="2.54" size="0.9906" layer="21" ratio="12">3</text>
@@ -6333,7 +6334,7 @@ Leave open for 1</text>
 <text x="118.872" y="87.122" size="1.016" layer="91">+5V</text>
 <text x="119.126" y="92.202" size="1.016" layer="91">SCL</text>
 <text x="118.618" y="81.788" size="1.016" layer="91">SDA</text>
-<text x="88.9" y="50.8" size="1.778" layer="91">Note: X1 pin 7 and 8 reserved for use on future active 6m module</text>
+<text x="88.9" y="50.8" size="1.778" layer="91">Note: X1 pin 7 reserved for use on future boards</text>
 </plain>
 <instances>
 <instance part="CT1" gate="G$1" x="71.12" y="99.06" smashed="yes" rot="MR270">
@@ -6462,7 +6463,6 @@ Leave open for 1</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="99.06" y1="86.36" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="78.74" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
@@ -6497,12 +6497,9 @@ Leave open for 1</text>
 <junction x="172.72" y="68.58"/>
 <pinref part="X1" gate="G$1" pin="8"/>
 <wire x1="99.06" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="7"/>
-<wire x1="99.06" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="G1"/>
 <wire x1="104.14" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
-<junction x="99.06" y="86.36"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="G2"/>
 <wire x1="104.14" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <junction x="99.06" y="78.74"/>
